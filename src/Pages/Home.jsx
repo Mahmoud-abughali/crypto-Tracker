@@ -20,11 +20,11 @@ export const Home = () => {
     }
   };
   const FilterSearch = () => {
-    let filtered = cryptoList.filter((crypto) =>
-      crypto.name.toLowerCase().includes(searchquery)||
-      crypto.symbol.toLowerCase().includes(searchquery)
-  
-  );
+    let filtered = cryptoList.filter(
+      (crypto) =>
+        crypto.name.toLowerCase().includes(searchquery) ||
+        crypto.symbol.toLowerCase().includes(searchquery),
+    );
     filtered.sort((a, b) => {
       switch (sortby) {
         case "name":
@@ -79,7 +79,7 @@ export const Home = () => {
       <header className="header">
         <div className="header-content">
           <div className="logo-section">
-            <h1>Crypto for my Nigga</h1>
+            <h1>Crypto for my Friends</h1>
             <p>Live Price tracing</p>
           </div>
           <div className="search-section">

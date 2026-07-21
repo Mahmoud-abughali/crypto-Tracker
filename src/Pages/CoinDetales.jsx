@@ -81,7 +81,7 @@ export const CoinDetales = () => {
       <header className="header">
         <div className="header-content">
           <div className="logo-section">
-            <h1>Crypto for my Nigga</h1>
+            <h1>Crypto for my Friends</h1>
             <p>Live Price tracing</p>
           </div>
           <button className="back-button" onClick={() => navigate("/")}>
